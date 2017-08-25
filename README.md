@@ -6,7 +6,7 @@
 
 1. Clone the repository locally:
 
-		$ git clone https://github.com/raphaelabreu1/resize-photos-challenge
+		$ git clone https://github.com/TallesFaria/resize-photo-rb
 
 2. At the command prompt, access the folder of application:
 
