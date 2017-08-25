@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://54.152.221.29/images.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 13 Apr 2017 17:12:10 GMT
+      Server:
+      - Apache/2.4.18 (Ubuntu)
+      X-Content-Type-Options:
+      - nosniff
+      X-Powered-By:
+      - Phusion Passenger 5.1.2
+      Content-Length:
+      - '690'
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "images": [
+            {
+              "url": "http://54.152.221.29/images/b737_5.jpg"
+            },
+            {
+              "url": "http://54.152.221.29/images/b777_5.jpg"
+            },
+            {
+              "url": "http://54.152.221.29/images/b737_3.jpg"
+            },
+            {
+              "url": "http://54.152.221.29/images/b777_4.jpg"
+            },
+            {
+              "url": "http://54.152.221.29/images/b777_3.jpg"
+            },
+            {
+              "url": "http://54.152.221.29/images/b737_2.jpg"
+            },
+            {
+              "url": "http://54.152.221.29/images/b777_2.jpg"
+            },
+            {
+              "url": "http://54.152.221.29/images/b777_1.jpg"
+            },
+            {
+              "url": "http://54.152.221.29/images/b737_4.jpg"
+            },
+            {
+              "url": "http://54.152.221.29/images/b737_1.jpg"
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Thu, 13 Apr 2017 17:12:10 GMT
+recorded_with: VCR 3.0.3

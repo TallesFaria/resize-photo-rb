@@ -1,0 +1,37 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://54.152.221.29/images.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 408
+      message: request_timeout
+    headers:
+      Date:
+      - Thu, 13 Apr 2017 17:12:10 GMT
+      Server:
+      - Apache/2.4.18 (Ubuntu)
+      X-Content-Type-Options:
+      - nosniff
+      X-Powered-By:
+      - Phusion Passenger 5.1.2
+      Content-Length:
+      - '690'
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json
+    http_version:
+  recorded_at: Thu, 13 Apr 2017 17:12:10 GMT
+recorded_with: VCR 3.0.3
